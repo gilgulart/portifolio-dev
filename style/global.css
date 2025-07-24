@@ -49,3 +49,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.stack-content {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+
+  display: flex;
+}
