@@ -1,0 +1,31 @@
+#intro {
+  display: flex;
+  justify-content: center;
+
+  #avatar {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+  }
+
+  h1 {
+    font: var(--title-lg);
+    margin-top: 4px;
+  }
+  h2 {
+    font: var(--subtitle);
+    text-align: center;
+    gap: 8px;
+    span {
+      color: var(--red);
+    }
+  }
+  p {
+    font: var(--text-sm);
+    color: var(--gray-300);
+    width: 680px;
+    text-justify: center;
+    margin-top: 20px;
+  }
+}
